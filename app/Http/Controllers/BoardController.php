@@ -15,9 +15,9 @@ class BoardController extends Controller
 		return view('boards.index', compact('boards'));
     }
 
-    public function create(Request $request) {
-        $testData = "Data init ?";
+    public function list(Request $request) {
+        $testData = "데이터 넘겨줌";
 
-        return view('boards.create', compact('testData'));
+        return view('boards.list', compact('testData'));
     }
 }
