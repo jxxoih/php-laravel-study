@@ -8,5 +8,6 @@ Route::get('/', function () {
 });
 
 Route::get('/boards', [BoardController::class, 'index'])->name('board.index');
-
-Route::get('/boards', [BoardController::class, 'create'])->name('board.create');
+# ->name('별칭')
+# [BoardController::class, 'list'] : boardController의 list 함수 실행
+Route::get('/boards/list', [BoardController::class, 'list'])->name('board.create');

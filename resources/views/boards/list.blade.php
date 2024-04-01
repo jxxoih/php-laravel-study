@@ -7,7 +7,7 @@
     <title>Document</title>
 </head>
 <body>
-    Create Board
+    list Board
     {{$testData}}
 </body>
 </html>
